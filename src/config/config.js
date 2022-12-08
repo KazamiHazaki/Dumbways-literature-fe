@@ -1,8 +1,8 @@
 import axios from 'axios';
 
 export const API = axios.create({
-  baseURL: 'http://localhost:5000/api/v1'
-  // baseURL: 'https://literature-dw18lsfsq.herokuapp.com/api/v1',
+//  baseURL: 'http://127.0.0.1:5000/api/v1'
+   baseURL: 'https://api.kelompok2.studentdumbways.my.id/api/v1',
 });
 
 export const setToken = (token) => {
