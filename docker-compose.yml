@@ -2,8 +2,7 @@ version: '3.8'
 services:
   frontend:
     container_name: frontend
-    build: .
-    image: indizzy/literature:1.0
+    image: kazamisei98/literature-fe:1.0
     stdin_open: true
     ports:
     - 3000:3000
